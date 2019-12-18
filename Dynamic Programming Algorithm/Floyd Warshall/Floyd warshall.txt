@@ -1,0 +1,21 @@
+The Floyd Warshall Algorithm is for solving the All Pairs Shortest Path problem. The problem is to find shortest distances between every pair of vertices in a given edge weighted directed Graph.
+
+
+A,B,C,D ====> these are the vertices of the graph and they are connected with thier edges with weight.
+
+            10
+       (A)------->(B)
+        |         /|\
+      5 |          |
+        |          | 1
+       \|/         |
+       (D)------->(C)
+            3      
+
+
+This algo will give all the Solution for shortest path Between every source members like A,B,C,D.
+
+
+
+
+
