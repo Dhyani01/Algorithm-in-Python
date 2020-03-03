@@ -14,23 +14,22 @@
 
 """
 
-""" Items => (value, weight) pairs
-  arr[] = {{60, 10}, {100, 20}, {120, 30}}
+""" Items => (value, weight , object no.) pairs
+  arr[] = {{60, 10,0}, {100, 20,1}, {120, 30,2}}
   Knapsack Capacity W = 50"""
     
 
-items=[[60,10],[100,20],[120,30]]
+items=[[60,10,0],[100,20,1],[120,30,2]]
 W=50
 
 list_1=[]
 for i in range(len(items)):
     a=items[i][0]/items[i][1]
-    list_1.append(a)
+    list_1.append([int(a),items[i][2]])
 list_1.sort(reverse=True)
 
-
-for i in range(len(items)):
-    if 
+for i in range(len(list_1)):
+  
 
 
 
